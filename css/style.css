@@ -16,6 +16,10 @@ header {
     padding: 6px;
 }
 
+body {
+    background-color: #f0efef!important;
+}
+
 .main-section {
     background-image: url(../images/grid.jpg);
     background-size: 100%;
@@ -55,7 +59,8 @@ header {
 .news {
     border-right: 2px solid #b4b3b3;
     border-bottom: 2px solid #b4b3b3;
-    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
 }
 
 .news:hover {
@@ -75,7 +80,7 @@ header {
     margin: 10px 5px 0 5px;
 }
 
-.news-title:hover {
+.news-title:hover, .news-title2:hover {
     color: #e10600;
     transition: 0.2s;
 }
@@ -128,6 +133,13 @@ header {
     background-color: #fff;
     transition: 0.3s;
     cursor: pointer;
+}
+
+.news-title2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #000;
+    margin: 15px 5px;
 }
 
 footer {
