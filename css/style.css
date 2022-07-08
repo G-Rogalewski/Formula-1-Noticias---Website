@@ -147,8 +147,42 @@ footer {
     padding: 15px 0;
 }
 
+.img-footer {
+    display: inline;
+}
+
 .text-footer {
     color: #fff;
     display: inline;
     float: right;
 }
+
+/****RESPONSIVE****/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-title { margin-top: 19%; }
+    .news { margin-bottom: 30px; }
+    }
+
+@media only screen and (min-width: 566px) and (max-width: 767px) {
+    .main-title { margin-top: 19%; font-size: 28px; }
+    .main-button { padding: 8px 25px; font-size: 18px; }
+    .news { margin-bottom: 30px; }
+    .img-footer { text-align: center; display: block; }
+    .text-footer { display: block; float: inherit; font-size: 15px; margin-top: 10px; text-align: center; }
+    }
+
+@media only screen and (min-width: 409px) and (max-width: 565px) {
+    .main-title { margin-top: 19%; font-size: 21px; }
+    .main-button { padding: 6px 20px; font-size: 14px; }
+    .news { margin-bottom: 30px; }
+    .img-footer { text-align: center; display: block; }
+    .text-footer { display: block; float: inherit; font-size: 15px; margin-top: 10px; text-align: center; }
+}
+
+@media only screen and (max-width: 408px) {
+    .main-title { margin-top: 15%; font-size: 21px; }
+    .main-button { padding: 6px 20px; font-size: 14px; }
+    .news { margin-bottom: 30px; }
+    .img-footer { text-align: center; display: block; }
+    .text-footer { display: block; float: inherit; font-size: 15px; margin-top: 10px; text-align: center; }
+    }
