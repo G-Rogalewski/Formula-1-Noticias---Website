@@ -1,8 +1,9 @@
 .drivers {
     padding: 10px 10px 0 10px;
     margin-bottom: 30px;
-    background-image: url(../images/fundo.png);
+    background-color: #f5f4f4;
     background-size: 8px;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 45%);
 }
 
 .rbr, .ferrari, .mercedes, .mclaren, .alpine, .alfa, .haas, .aston, .alpha, .willians {
