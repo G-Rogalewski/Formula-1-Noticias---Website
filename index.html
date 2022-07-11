@@ -50,7 +50,7 @@
         <section class="main-section">
             <h1 class="main-title">Confira o grid da temporada de 2022 da F1</h1>
             <div style="text-align: center;">
-                <button class="main-button">Conferir</button>
+                <button class="main-button" onclick="location.href = pilotos.html"; id="button-one">Conferir</button>
             </div>
         </section>
         <section style="padding: 40px 0;">
@@ -63,9 +63,9 @@
                             <div class="col-md-8">
                                 <div class="news">
                                     <a href="" style="text-decoration: none;">
-                                        <img src="images/sainz.jpg" alt="" class="img-news">
-                                        <h2 class="news-title">Silverstone: Carlos Sainz conquista sua primeira vitória na F1</h2>
-                                        <p class="news-text">Em corrida com acidente grave na largada, Carlos Sainz vê vitória escapar algumas vezes, mas conta com safety car e estratégia da Ferrari para triunfar; Perez é segundo e Hamilton terceiro</p>
+                                        <img src="images/leclerc_austria.jpg" alt="" class="img-news">
+                                        <h2 class="news-title">Leclerc supera problemas e vence o GP da Áustria</h2>
+                                        <p class="news-text">Piloto da Ferrari relatou problemas no pedal do acelerador, mas superou as adversidades e conqusta vitória na casa da Red Bull.</p>
                                     </a>
                                 </div>
                             </div>
@@ -73,11 +73,11 @@
                                 <div class="next-gp">
                                     <div style="background-color: #e10600;"><h3 class="gp-title">Próximo GP</h3></div>
                                     <div class="gp">
-                                        <img src="images/austria.png" alt="" width="50px">
-                                        <h3>GP da Áustria</h3>
+                                        <img src="images/franca_flag.png" alt="" width="50px">
+                                        <h3>GP da França</h3>
                                     </div>
-                                    <img src="images/gp.png" alt="" width="100%">
-                                    <p class="date">Data: 10/07 10h</p>
+                                    <img src="images/gp_franca.png" alt="" width="100%">
+                                    <p class="date">Data: 24/07 10h</p>
                                     <div style="text-align: center;">
                                         <button class="gp-button">Ver mais</button>
                                     </div>
@@ -181,5 +181,10 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+<script type="text/javascript">
+    document.getElementById("button-one").onclick = function () {
+        location.href = "pilotos.html";
+    };
+</script>
 </body>
 </html>
