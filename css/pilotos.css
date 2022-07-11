@@ -1,0 +1,110 @@
+.drivers {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 30px;
+    background-image: url(../images/fundo.png);
+    background-size: 8px;
+}
+
+.rbr, .ferrari, .mercedes, .mclaren, .alpine, .alfa, .haas, .aston, .alpha, .willians {
+    border-top: 2px solid #808080;
+    border-right: 2px solid #808080;
+    border-top-right-radius: 10px;
+    transition: 0.4s;
+}
+
+.rbr:hover {
+    border-top: 2px solid #010168;
+    border-right: 2px solid #010168;
+    color: #010168;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.ferrari:hover {
+    border-top: 2px solid #F91536;
+    border-right: 2px solid #F91536;
+    color: #F91536;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.mercedes:hover {
+    border-top: 2px solid #6CD3BF;
+    border-right: 2px solid #6CD3BF;
+    color: #6CD3BF;
+    transform: scale(1.1);
+    transition: 0.4s; 
+}
+
+.mclaren:hover {
+    border-top: 2px solid #F58020;
+    border-right: 2px solid #F58020;
+    color: #F58020;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.alpine:hover {
+    border-top: 2px solid #2293D1;
+    border-right: 2px solid #2293D1;
+    color: #2293D1;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.alfa:hover {
+    border-top: 2px solid #C92D4B;
+    border-right: 2px solid #C92D4B;
+    color: #C92D4B;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.haas:hover {
+    border-top: 2px solid #B6BABD;
+    border-right: 2px solid #B6BABD;
+    color: #B6BABD;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.alpha:hover {
+    border-top: 2px solid #5E8FAA;
+    border-right: 2px solid #5E8FAA;
+    color: #5E8FAA;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.aston:hover {
+    border-top: 2px solid #358C75;
+    border-right: 2px solid #358C75;
+    color: #358C75;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.willians:hover {
+    border-top: 2px solid #37BEDD;
+    border-right: 2px solid #37BEDD;
+    color: #37BEDD;
+    transform: scale(1.1);
+    transition: 0.4s; 
+}
+
+.flag {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.driver {
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+.points {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: -10px;
+}
